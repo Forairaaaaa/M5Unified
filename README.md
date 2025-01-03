@@ -1,6 +1,16 @@
 # M5Unified
 ### Arduino / ESP-IDF Library for M5Stack Series
 
+idf component upload preparation:
+
+https://github.com/Forairaaaaa/M5Unified/commit/a42d62194d3eeb684bd87f1eec2fdbb0239d1a85
+
+add upload workflow
+
+change cmake list
+
+add `idf_component.yml`
+
 ## Usage
 This library provides access to the built-in hardware of M5Stack controllers.  Library functionality is available through the `m5` namespace, and includes the following:
 
