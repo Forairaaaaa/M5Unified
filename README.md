@@ -9,7 +9,19 @@ add upload workflow
 
 change cmake list from `M5GFX` to `m5gfx`
 
-add `idf_component.yml`
+add `idf_component.yml` :
+
+```
+description: Unified library for M5Stack series
+issues: https://github.com/m5stack/M5Unified/issues
+repository: https://github.com/m5stack/M5Unified.git
+url: https://github.com/m5stack/M5Unified.git
+version: 0.2.2
+
+dependencies:
+  m5stack/m5gfx:
+    version: "^0.2.3"
+```
 
 ## Usage
 This library provides access to the built-in hardware of M5Stack controllers.  Library functionality is available through the `m5` namespace, and includes the following:
