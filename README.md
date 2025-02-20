@@ -7,7 +7,7 @@ https://github.com/Forairaaaaa/M5Unified/commit/a42d62194d3eeb684bd87f1eec2fdbb0
 
 add upload workflow
 
-change cmake list
+change cmake list from `M5GFX` to `m5gfx`
 
 add `idf_component.yml`
 
