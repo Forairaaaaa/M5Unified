@@ -9,9 +9,9 @@ file(GLOB SRCS
 set(COMPONENT_SRCS ${SRCS})
 
 if (IDF_VERSION_MAJOR GREATER_EQUAL 5)
-    set(COMPONENT_REQUIRES M5GFX esp_adc driver)
+    set(COMPONENT_REQUIRES m5gfx esp_adc driver)
 else()
-    set(COMPONENT_REQUIRES M5GFX esp_adc_cal)
+    set(COMPONENT_REQUIRES m5gfx esp_adc_cal)
 endif()
 
 ### If you use arduino-esp32 components, please activate next comment line.
